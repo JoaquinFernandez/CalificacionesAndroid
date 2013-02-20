@@ -1,7 +1,3 @@
-/*
- * Copyright (C) 2011  Joaquín Fernández Moreno.
- * 				All rights reserved.
- */
 package calif.etsit;
 
 import java.util.ArrayList;
@@ -218,7 +214,7 @@ public class Calificaciones extends Activity {
 			else
 				version = info.versionName;
 			Toast t2 = Toast.makeText(getApplicationContext(), "Version " + version + '\n' + '\n'
-					+ "Joaquín Fernández Moreno ©" + '\n', Toast.LENGTH_LONG);
+					+ "Joaquín Fernández Moreno" + '\n', Toast.LENGTH_LONG);
 			t2.show();
 			return true;
 		case R.id.MnuOpc2:

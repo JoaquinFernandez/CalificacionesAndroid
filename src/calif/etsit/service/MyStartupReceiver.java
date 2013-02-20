@@ -1,7 +1,3 @@
-/*
- * Copyright (C) 2011  Joaquín Fernández Moreno.
- * 				All rights reserved.
- */
 package calif.etsit.service;
 
 import calif.etsit.Calificaciones;
