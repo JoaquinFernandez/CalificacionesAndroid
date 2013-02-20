@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/each_note_layout" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:weightSum="1"
+	android:orientation="vertical" android:clickable="true" >
+
+	<TextView android:id="@+id/each_note_title"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:textStyle="bold" android:focusable="false"
+		android:focusableInTouchMode="false" android:clickable="false"
+		android:minLines="2" android:gravity="center" android:textSize="18sp"
+		android:textColor="@color/black" />
+
+	<calif.etsit.view.MyTextView android:id="@+id/each_note_subtitle"
+		android:clickable="false" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:focusable="false"
+		android:focusableInTouchMode="false" android:minLines="2"
+		android:textColor="@color/black" android:gravity="center"
+		android:textStyle="normal" android:textSize="15px" />
+</LinearLayout>

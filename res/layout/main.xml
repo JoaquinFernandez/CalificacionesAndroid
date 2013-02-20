@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main_layout"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@color/bg_color">
+
+	<ImageView android:id="@+id/main_image" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/notas"
+		android:layout_gravity="center" android:layout_marginTop="20px" />
+
+	<TextView android:id="@+id/main_userLabel" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="29dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_marginTop="10px" android:text="@string/user_label" />
+
+	<EditText android:id="@+id/main_userEdit" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:singleLine="true"
+		android:layout_marginTop="10px" android:layout_gravity="center"
+		android:layout_marginLeft="28dp" android:layout_marginRight="28dp" />
+	<requestFocus></requestFocus>
+
+	<TextView android:id="@+id/main_passLabel" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="29dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="@string/pass_label" android:layout_marginTop="10px" />
+
+	<EditText android:id="@+id/main_passEdit" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:singleLine="true"
+		android:inputType="textPassword" android:layout_gravity="center"
+		android:layout_marginTop="10px" android:layout_marginLeft="28dp"
+		android:layout_marginRight="28dp" />
+
+	<CheckBox android:id="@+id/main_save_checkBox" android:text="@string/checkbox_label"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginLeft="29dp" android:layout_marginTop="10px" />
+
+	<Button android:id="@+id/main_connectButton" android:text="@string/connect_button_label"
+		android:layout_width="146dp" android:layout_height="wrap_content"
+		android:layout_marginTop="10px" android:layout_gravity="center" />
+</LinearLayout>
+

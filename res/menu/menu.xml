@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/MnuOpc1" android:title="About"
+		android:icon="@drawable/ic_menu_info_details"></item>
+	<item android:id="@+id/MnuOpc2" android:title="Preferencias"
+		android:icon="@drawable/ic_menu_manage"></item>
+</menu>

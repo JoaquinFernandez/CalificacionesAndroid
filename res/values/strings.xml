@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Notas</string>
+	<string name="user_label">Usuario</string>
+	<string name="pass_label">Contraseña</string>
+	<string name="checkbox_label">" Recordar Usuario"</string>
+	<string name="connect_button_label"> Conectar   </string>
+	<string name="lista_vacia">No se ha podido conectar</string>
+	<string name="min_SDK_version">3</string>
+	<string name="load_label">Espere mientras se conecta por favor...</string>
+	<string name="auto_update_text">¿Desea activar las actualizaciones automáticas?
+	</string>
+	<string name="auto_update_timer_text">Introduzca el intervalo de actualización (En minutos)</string>
+	<string name="preference_button_label">Aceptar</string>
+
+	<color name="bg_color">#ff4f768e</color>
+	<color name="notes_background">#ff4f768e</color>
+	<color name="notes_divider">#ffe1a604</color>
+	<color name="dialog">#ff4f768e</color>
+	<color name="black">#ff000000</color>
+	<color name="white">#ffffffff</color>
+</resources>
